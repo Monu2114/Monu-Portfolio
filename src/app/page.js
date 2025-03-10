@@ -3,10 +3,10 @@ import Contact from "./contact/page";
 import Projects from "./projects/page";
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className=" h-screen">
       <About />
-      <Contact />
       <Projects />
+      <Contact />
     </div>
   );
 }
