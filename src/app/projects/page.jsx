@@ -8,7 +8,7 @@ export default function projects() {
       deploy_link: "https://dumb-charades-eta.vercel.app/",
     },
     {
-      Title: "Dumbcharades-Telugu Movie Recommender System",
+      Title: "Memory Card",
       Description: "Movie Recommender using TMDB API",
       git_link: "https://github.com/Monu2114/Dumb-charades",
       deploy_link: "https://dumb-charades-eta.vercel.app/",
