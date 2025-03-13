@@ -12,9 +12,7 @@ export default function About() {
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
         </div>
-        <div className="text-black w-52 mt-12">
-          Hello Guys !! Monu here Wanna catch up ?
-        </div>
+        <div className="text-black w-52 mt-12">Monisha Nanabala</div>
       </div>
     </div>
   );
