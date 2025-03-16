@@ -4,12 +4,12 @@ import Projects from "./projects/page";
 import Skills from "../components/skills";
 export default function Home() {
   return (
-    <div className=" h-screen">
+    <main className="min-h-screen bg-background text-foreground eucalyptus-pattern">
       <About />
       <Projects />
       {/* Footer */}
       <Skills />
       <Footer />
-    </div>
+    </main>
   );
 }
