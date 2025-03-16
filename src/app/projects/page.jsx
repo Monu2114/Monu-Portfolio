@@ -1,4 +1,13 @@
-import Card from "@/components/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github } from "lucide-react";
 export default function projects() {
   const projects = [
     {
@@ -27,15 +36,31 @@ export default function projects() {
     },
   ];
   return (
-    <div className="flex bg-orange-100 w-screen h-screen p-4">
+    <div className="flex bg-gray-100 w-screen h-screen p-4">
       <div className="flex flex-col">
-        <h1 className="text-2xl font-semibold ">Featured Projects</h1>
+        <h1 className="text-2xl font-semibold">Featured Projects</h1>
         <div className="flex">
           {projects &&
             projects.map((card, index) => {
               return (
-                <Card key={index} card={card}>
-                  {card}
+                <Card key={index} className="">
+                  <CardHeader>
+                    <CardTitle>{card.title}</CardTitle>
+                    <CardDescription>{card.description}</CardDescription>
+                  </CardHeader>
+
+                  <CardFooter>
+                    <a href={card.link} target="_blank">
+                      <Button variant="ghost">
+                        Live <ExternalLink />
+                      </Button>
+                    </a>
+                    <a href={card.git} target="_blank">
+                      <Button variant="outline">
+                        <Github /> <ExternalLink />
+                      </Button>
+                    </a>
+                  </CardFooter>
                 </Card>
               );
             })}
