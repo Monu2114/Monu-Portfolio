@@ -26,14 +26,12 @@ export default function About() {
               ease: "easeInOut",
             }}
           >
-            <div className="relative">
-              <div className="w-24 h-24 bg-muted rounded-full relative ">
-                <div className="absolute w-4 h-4 bg-foreground rounded-full left-4 top-8" />
-                <div className="absolute w-4 h-4 bg-foreground rounded-full right-4 top-8" />
-                <div className="absolute w-6 h-4 bg-foreground rounded-full left-1/2 top-14 -translate-x-1/2" />
+            <div className="w-24 h-24 bg-muted rounded-full relative ">
+              <div className="absolute w-4 h-4 bg-foreground rounded-full left-4 top-8" />
+              <div className="absolute w-4 h-4 bg-foreground rounded-full right-4 top-8" />
+              <div className="absolute w-6 h-4 bg-foreground rounded-full left-1/2 top-14 -translate-x-1/2" />
 
-                {/* <div className="absolute w-10 h-4 bg-foreground rounded-full left-1/2 top-20 -translate-x-1/2" /> */}
-              </div>
+              {/* <div className="absolute w-10 h-4 bg-foreground rounded-full left-1/2 top-20 -translate-x-1/2" /> */}
             </div>
           </motion.div>
         </div>
