@@ -16,7 +16,7 @@ export default function About() {
       >
         <div className="flex justify-center mb-6">
           <motion.div
-            className="koala-ears relative bg-muted rounded-full p-8 shadow-lg"
+            className="koala-ears relative bg-muted rounded-full p-6 shadow-lg"
             animate={{
               scale: [1, 1.05, 1],
             }}
@@ -27,7 +27,7 @@ export default function About() {
             }}
           >
             <div className="relative">
-              <div className="w-24 h-24 bg-muted rounded-full relative">
+              <div className="w-24 h-24 bg-muted rounded-full relative ">
                 <div className="absolute w-4 h-4 bg-foreground rounded-full left-4 top-8" />
                 <div className="absolute w-4 h-4 bg-foreground rounded-full right-4 top-8" />
                 <div className="absolute w-6 h-4 bg-foreground rounded-full left-1/2 top-14 -translate-x-1/2" />
