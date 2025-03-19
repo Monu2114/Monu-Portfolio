@@ -63,13 +63,13 @@ export default function About() {
               href="https://drive.google.com/file/d/1xc2fHgWr9qRO9eYGaN4VRLZTFIiiJyqJ/view?usp=sharing"
               target="_blank"
             >
-              <Button variant="outline">
+              <Button variant="outline" className="dark:bg-gray-100">
                 <FileText />
                 Resume
               </Button>
             </a>
             <a href="https://github.com/Monu2114" target="_blank">
-              <Button variant="outline">
+              <Button variant="outline" className="dark:bg-gray-100">
                 <GithubIcon />
                 Github
               </Button>
