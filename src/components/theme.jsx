@@ -1,20 +1,40 @@
 "use-client";
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "./ui/button";
 
 const theme = () => {
-  const handleClick = () => {
-    {
-      theme == "light" && setTheme("dark");
+  const [theme, setTheme] = useState("light");
+  useEffect(() => {
+    if (typeof window != "undefined") {
+      const storedTheme = localStorage.getItem("theme");
+      if (storedTheme) {
+        setTheme(storedTheme);
+        document.documentElement.className = storedTheme;
+      } // Apply the theme to the HTML root
+
+      console.log(localStorage);
     }
-    {
-      theme == "dark" && setTheme("light");
+  }, []);
+
+  // const storedTheme = localStorage
+
+  const handleClick = () => {
+    if (theme == "light") {
+      setTheme("dark");
+      document.documentElement.className = "dark"; // Update root class
+
+      localStorage.setItem("theme", "dark");
+    }
+
+    if (theme == "dark") {
+      setTheme("light");
+      document.documentElement.className = "light"; // Update root class
+      localStorage.setItem("theme", "dark");
     }
     console.log(theme);
   };
-  const [theme, setTheme] = new useState("light");
   return (
     <div>
       <Button

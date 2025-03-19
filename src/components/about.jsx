@@ -36,9 +36,7 @@ export default function About() {
             </div>
           </motion.div>
         </div>
-
         <Theme />
-
         <div className="text-black mt-12 text-2xl font-semibold flex-col">
           <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-gray-600 to-gray-900 dark:from-gray-400 dark:to-gray-100">
             Monisha Nanabala
