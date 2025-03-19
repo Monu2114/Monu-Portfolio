@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { GithubIcon, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
+import Theme from "./theme";
 export default function About() {
   // in dark mode - dark:from-gray-400
   return (
@@ -35,6 +36,8 @@ export default function About() {
             </div>
           </motion.div>
         </div>
+
+        <Theme />
 
         <div className="text-black mt-12 text-2xl font-semibold flex-col">
           <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-gray-600 to-gray-900 dark:from-gray-400 dark:to-gray-100">
