@@ -31,7 +31,7 @@ const theme = () => {
     if (theme == "dark") {
       setTheme("light");
       document.documentElement.className = "light"; // Update root class
-      localStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "light");
     }
     console.log(theme);
   };
