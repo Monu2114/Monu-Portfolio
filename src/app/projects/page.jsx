@@ -69,7 +69,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="flex bg-gray-100 p-4 dark:bg-gray-900">
+    <div className="flex p-4 ">
       <div className="flex flex-col w-full">
         <h1 className="text-3xl font-semibold py-8 text-center">
           Featured Projects
