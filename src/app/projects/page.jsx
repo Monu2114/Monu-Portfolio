@@ -70,12 +70,12 @@ export default function Projects() {
       git: "https://github.com/Monu2114/Taskflow",
     },
     {
-      title: "Mini-Message-Board",
+      title: "Pokémon MCP Server",
       description:
-        "Full-stack web app that allows users to create, edit, and delete personal messages",
-      tech: ["MERN Stack", "MongoDB", "Express"],
-      link: "https://github.com/Monu2114/mini-message-board",
-      git: "https://github.com/Monu2114/mini-message-board",
+        "Get detailed info (stats, types, abilities, moves, evolution chain) from the public PokéAPI. Simulate Battles: Run simple Pokémon battles with type effectiveness and status effects.The server exposes these features via the Model Context Protocol (MCP), and a client can call the resource and the tool",
+      tech: ["Python ", "requests "],
+      link: "https://github.com/Monu2114/Samurai",
+      git: "https://github.com/Monu2114/Samurai",
     },
 
     {
@@ -92,6 +92,14 @@ export default function Projects() {
       tech: ["MongoDB", "Next.JS", "JWT-Authentication"],
       link: "https://notes-nu-five.vercel.app/",
       git: "https://github.com/Monu2114/Notes",
+    },
+    {
+      title: "Mini-Message-Board",
+      description:
+        "Full-stack web app that allows users to create, edit, and delete personal messages",
+      tech: ["MERN Stack", "MongoDB", "Express"],
+      link: "https://github.com/Monu2114/mini-message-board",
+      git: "https://github.com/Monu2114/mini-message-board",
     },
   ];
 
