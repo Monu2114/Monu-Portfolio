@@ -12,12 +12,12 @@ import { ExternalLink, Github } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Mini-Wins",
+      title: "Samurai",
       description:
-        "Habit tracking app that follows principles of Atomic Habits book by James Clear",
-      tech: ["TypeScript", "React", "shadcn-ui", "Tailwind CSS"],
-      link: "https://minimal-victory-habits.vercel.app/",
-      git: "https://github.com/Monu2114/minimal-victory-habits",
+        "Transform lengthy PDFs into clear, accurate summaries in seconds using AI",
+      tech: ["NextJS", "Gemini", "neon", "zod"],
+      link: "https://github.com/Monu2114/Samurai",
+      git: "https://github.com/Monu2114/Samurai",
     },
     {
       title: "Dumb Charades",
@@ -28,12 +28,46 @@ export default function Projects() {
       git: "https://github.com/Monu2114/Dumb-charades",
     },
     {
+      title: "Pokemon Card Game",
+      description:
+        "React-based game where user selects unique cards to increase score",
+      tech: ["React"],
+      link: "https://memory-card-iota-lovat.vercel.app/",
+      git: "https://github.com/Monu2114/Memory-Card",
+    },
+    {
+      title: "Mini-Wins",
+      description:
+        "Habit tracking app that follows principles of Atomic Habits book by James Clear",
+      tech: ["TypeScript", "React", "shadcn-ui", "Tailwind CSS"],
+      link: "https://minimal-victory-habits.vercel.app/",
+      git: "https://github.com/Monu2114/minimal-victory-habits",
+    },
+    {
+      title: "Green Day",
+      description:
+        "Developed a Telugu movie recommender web app using TMDB API",
+      tech: ["Vibe coding", "HTML", "CSS", "Javascript"],
+      link: "https://incomparable-crepe-a2727b.netlify.app/",
+      git: "https://github.com/Monu2114/green-day",
+    },
+
+    {
       title: "Role-Based-Access",
       description:
         "Designed a role-based task management system with Admin, Manager, and Guest roles",
       tech: ["React"],
       link: "https://role-based-access-rho.vercel.app/",
       git: "https://github.com/Monu2114/Role-Based-Access",
+    },
+    {
+      title: "Taskflow - Your Simple Task Manager",
+      description:
+        "Lightweight, responsive task management app built using plain HTML, CSS (Tailwind), and JavaScript.Manage your tasks efficiently with features like filtering, search, priority levels, data export/import, and keyboard shortcuts.",
+
+      tech: ["HTML", "CSS", "Javascript"],
+      link: "https://taskflow-gules-xi.vercel.app/",
+      git: "https://github.com/Monu2114/Taskflow",
     },
     {
       title: "Mini-Message-Board",
@@ -43,14 +77,7 @@ export default function Projects() {
       link: "https://github.com/Monu2114/mini-message-board",
       git: "https://github.com/Monu2114/mini-message-board",
     },
-    {
-      title: "Pokemon Card Game",
-      description:
-        "React-based game where user selects unique cards to increase score",
-      tech: ["React"],
-      link: "https://memory-game-silk-sigma.vercel.app/",
-      git: "https://github.com/Monu2114/Memory-Card",
-    },
+
     {
       title: "Coffee-Shop (Frontend)",
       description:
