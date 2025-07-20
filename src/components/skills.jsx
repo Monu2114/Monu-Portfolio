@@ -22,7 +22,7 @@ const skills = () => {
     { name: "Node.js", icon: SiNodedotjs, color: "#8CC84B" }, // Green
     { name: "Express", color: "#505050" }, // Grey for Express (fallback)
     { name: "MongoDB", icon: SiMongodb, color: "#47A248" }, // Green
-    { name: "Next.JS", color: "#000000" }, // Black for Next.js (fallback)
+    { name: "Next.js", color: "#000000" }, // Black for Next.js (fallback)
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" }, // Teal
     { name: "Git", icon: SiGit, color: "#F05032" }, // Orange
     { name: "Java", icon: SiJava, color: "#007396" }, // Blue
