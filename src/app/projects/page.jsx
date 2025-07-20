@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         "Transform lengthy PDFs into clear, accurate summaries in seconds using AI",
       tech: ["NextJS", "Gemini", "neon", "zod"],
-      link: "https://github.com/Monu2114/Samurai",
+      // link: "https://github.com/Monu2114/Samurai",
       git: "https://github.com/Monu2114/Samurai",
     },
     {
@@ -45,8 +45,7 @@ export default function Projects() {
     },
     {
       title: "Green Day",
-      description:
-        "Developed a Telugu movie recommender web app using TMDB API",
+      description: "A site for green day enthusiasts",
       tech: ["Vibe coding", "HTML", "CSS", "Javascript"],
       link: "https://incomparable-crepe-a2727b.netlify.app/",
       git: "https://github.com/Monu2114/green-day",
@@ -74,14 +73,13 @@ export default function Projects() {
       description:
         "Get detailed info (stats, types, abilities, moves, evolution chain) from the public PokéAPI. Simulate Battles: Run simple Pokémon battles with type effectiveness and status effects.The server exposes these features via the Model Context Protocol (MCP), and a client can call the resource and the tool",
       tech: ["Python ", "requests "],
-      link: "https://github.com/Monu2114/Samurai",
-      git: "https://github.com/Monu2114/Samurai",
+
+      git: "https://github.com/Monu2114/MCP_Pokemon",
     },
 
     {
       title: "Coffee-Shop (Frontend)",
-      description:
-        "Built a full-stack web app that allows users to manage coffee shop orders",
+      description: "Built a  beautiful coffee shop site(frontend)",
       tech: ["MERN Stack", "MongoDB", "Express"],
       link: "https://coffee-shop-kappa-ashen.vercel.app/",
       git: "https://github.com/Monu2114/Coffee-shop",
@@ -98,7 +96,7 @@ export default function Projects() {
       description:
         "Full-stack web app that allows users to create, edit, and delete personal messages",
       tech: ["MERN Stack", "MongoDB", "Express"],
-      link: "https://github.com/Monu2114/mini-message-board",
+      link: null,
       git: "https://github.com/Monu2114/mini-message-board",
     },
   ];
@@ -138,11 +136,14 @@ export default function Projects() {
                 </div>
               </CardContent>
               <CardFooter className="flex gap-2">
-                <a href={card.link} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="sm">
-                    Live <ExternalLink className="ml-1 h-4 w-4" />
-                  </Button>
-                </a>
+                {card.link && (
+                  <a href={card.link} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm">
+                      Live <ExternalLink className="ml-1 h-4 w-4" />
+                    </Button>
+                  </a>
+                )}
+
                 <a href={card.git} target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="sm">
                     <Github className="mr-1 h-4 w-4" />

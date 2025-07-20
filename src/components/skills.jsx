@@ -39,7 +39,7 @@ const skills = () => {
             const Icon = skill.icon;
             return (
               <div
-                className="border-2 md:w-36 h-18 rounded-2xl text-center p-3 flex flex-col justify-center w hover:shadow-lg transition duration-300"
+                className="border-2 md:w-36 h-24 rounded-2xl text-center p-3 flex flex-col justify-center w hover:shadow-lg transition duration-300"
                 key={index}
               >
                 <div className="mb-2 mx-auto">

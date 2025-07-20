@@ -44,11 +44,11 @@ export default function About() {
           <div className="text-xl text-muted-foreground mb-8 h-8 ">
             <TypeAnimation
               sequence={[
-                "Mern Stack developer",
+                "Mern Stack Developer",
                 1000,
-                "3rd year CSE Student",
+                "Final year CSE Student",
                 1000,
-                "Full Stack Enthusiast",
+                "Full Stack Developer",
                 1000,
                 "Open Source Contributor",
                 1000,
@@ -60,7 +60,7 @@ export default function About() {
           </div>
           <div className="flex justify-center gap-4">
             <a
-              href="https://drive.google.com/file/d/1xc2fHgWr9qRO9eYGaN4VRLZTFIiiJyqJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1w_boPyMnS1QO9P0hgMQ6t67SAhv6GQR_/view?usp=sharing"
               target="_blank"
             >
               <Button variant="outline" className="dark:bg-gray-100">

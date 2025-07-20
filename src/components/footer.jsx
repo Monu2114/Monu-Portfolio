@@ -1,5 +1,5 @@
 import React from "react";
-import { Github } from "lucide-react";
+import { Github, Twitter, TwitterIcon } from "lucide-react";
 import { Linkedin, Mail } from "lucide-react";
 const page = () => {
   return (
@@ -11,6 +11,14 @@ const page = () => {
           target="_blank"
         >
           <Github className="w-6 h-6" />
+        </a>
+        <a
+          href="https://x.com/monu_keys"
+          target="_blank"
+          className="hover:text-foreground transition-colors"
+          rel="noopener noreferrer"
+        >
+          <TwitterIcon className="w-6 h-6" />
         </a>
         <a
           href="https://www.linkedin.com/in/monisha-nanabala-1636511b6/"
